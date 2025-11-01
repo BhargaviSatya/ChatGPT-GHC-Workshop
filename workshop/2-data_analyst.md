@@ -86,6 +86,7 @@ Compare performance over time:
 - Identify trend shifts, highs/lows, and major corrections
 - Compare periods (2021 vs 2023, etc.)
 - Highlight macro or sectoral drivers
+- Also provide some graphical representations
 ```
 
 **Insights:**
