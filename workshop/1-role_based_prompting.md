@@ -2,7 +2,7 @@
 
 Try the same task with different roles:
 
-**Task:** Analyze this business problem: "Our customer retention rate dropped from 85% to 72% in the last quarter." I’ll be providing different roles—such and I’d like you to respond with insights or recommendations from each role’s point of view.
+**Task:** Analyze this business problem: "Our customer retention rate dropped from 85% to 72% in the last quarter." I’ll be providing different roles and I’d like you to respond with insights or recommendations from each role’s point of view.
 
 **Role 1: Data Analyst**
 ```text
