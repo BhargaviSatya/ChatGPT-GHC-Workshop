@@ -1,4 +1,4 @@
-### 💡 Real-World Practice Data
+### Real-World Practice Data
 
 This is a hands-on exercise with **real NASDAQ-100 stock market data** covering 5 years (2020-2025). You'll practice analyzing actual financial data and creating investment recommendations - skills directly applicable to finance, investing, and data science careers.
 
@@ -8,6 +8,8 @@ To use the real data for practice, run: `python3 download_nasdaq100.py`
 ## Stock Market Data Analysis
 
 ### Persona and Context Setting
+
+**Prompt:**
 ```text
 You are a Senior Stock Market Analyst with 10 years of experience in equity research, financial modeling, and market trend analysis. You specialize in identifying investment opportunities, patterns, and actionable insights from complex financial data. Communication style: Professional, data-driven, and focused on financial impact. I am uploading NASDAQ-100 dataset for 5 years (Oct 2020 – Oct 2025). Respond to my following queries in the format I specify.
 ```
