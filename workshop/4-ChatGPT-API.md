@@ -1,6 +1,6 @@
-# 🧠 OpenAI API Python Example
+# 🧠 OpenAI API Python Example (API Key in Code)
 
-This project demonstrates a simple way to integrate with the **OpenAI API** and run a small prompt using Python.
+This project demonstrates a simple way to integrate with the **OpenAI API** and run a small prompt using Python — with your **API key set directly in the script**.
 
 ---
 
@@ -14,29 +14,16 @@ pip install openai
 
 ---
 
-### 2. Set Your API Key
-You can set your API key as an environment variable:
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-```
-
-Or set it directly in your Python code (⚠️ not recommended for production):
-```python
-import os
-os.environ["OPENAI_API_KEY"] = "your_api_key_here"
-```
-
----
-
 ## 💬 Example Usage
 
-Here’s a minimal Python script that sends a chat prompt and prints the response:
+Here’s a minimal Python script that sends a chat prompt and prints the response.  
+💡 *Replace `"your_api_key_here"` with your actual OpenAI API key.*
 
 ```python
 from openai import OpenAI
 
-# Initialize client
-client = OpenAI()
+# Initialize client directly with your API key
+client = OpenAI(api_key="your_api_key_here")
 
 # Send a simple prompt
 response = client.chat.completions.create(
@@ -78,7 +65,7 @@ import asyncio
 from openai import AsyncOpenAI
 
 async def main():
-    client = AsyncOpenAI()
+    client = AsyncOpenAI(api_key="your_api_key_here")
     response = await client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": "Write a quick poem about the stars."}]
