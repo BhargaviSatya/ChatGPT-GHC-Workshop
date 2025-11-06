@@ -1,3 +1,10 @@
+# Prerequisites
+# pip install openai
+
+# References
+# Chat Completions Guide: https://platform.openai.com/docs/guides/chat-completions
+# Chat Create API Reference: https://platform.openai.com/docs/api-reference/chat/create
+
 from openai import OpenAI
 
 client = OpenAI(api_key="add your api key")
